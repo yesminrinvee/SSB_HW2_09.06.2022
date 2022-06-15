@@ -1,0 +1,91 @@
+
+h1 {
+  display: block;
+  font-size: 50px;
+  color:seagreen;
+}
+h2 {
+  display: block;
+  font-size: 25px;
+  color:orangered;
+}
+
+p {
+  display: block;
+ color: darkblue;
+}
+
+abbr {
+  display: inline;
+}
+
+address {
+  display: block;
+  font-style: normal;
+}
+
+a:link, a:visited {
+  color: blue;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: blue;;
+}
+
+bdo {
+  unicode-bidi: bidi-override;
+}
+
+.button{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+cite {
+  font-style: italic;
+}
+
+.myDiv {
+  border: 2px outset black;
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+.header{
+  min-height: 100px;
+  background-color: red;
+}
+
+.wrapper { 
+  border: 10px solid yellow;
+  overflow: hidden; }
+
+.contact{
+  min-height: 200px;
+  background-color: green;
+  width: 60%;
+  float: left;
+}
+.blog{ 
+  min-height: 200px;
+  background-color: blue;
+  width: 40%;
+  float: right;
+
+}
+
+.footer{
+  min-height: 100px;
+  background-color: black;
+
+}
